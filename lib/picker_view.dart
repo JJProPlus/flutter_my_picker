@@ -488,7 +488,7 @@ class _MyDatePickerState extends State<MyDatePicker> {
         ),
         if (widget.title != null) Expanded(child: Center(child: widget.title,)),
         TextButton(
-          child: Text('确认', style: TextStyle(color: Theme.of(context).primaryColor),),
+          child: Text('确认', style: TextStyle(color: Colors.blue),),
           onPressed: () {
             onConfirm();
           },
